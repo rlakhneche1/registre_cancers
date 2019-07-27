@@ -1,0 +1,28 @@
+{
+    "name": "yaroslavmolchan/rbac",
+    "description": "Simple RBAC/ACL for Laravel 5.5 and more with caching and permission groups.",
+    "version" : "1.0.3",
+    "keywords": ["laravel", "rbac", "acl"],
+    "license": "MIT",
+    "authors": [{
+        "name": "Yaroslav Molchan",
+        "email": "yaroslav.molchan@gmail.com",
+        "homepage": "https://molchan.me"
+    }],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "YaroslavMolchan\\Rbac\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YaroslavMolchan\\Rbac\\RbacServiceProvider"
+            ]
+        }
+    }
+}
