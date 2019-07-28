@@ -1,5 +1,5 @@
 # registre_cancers
-application web qui permet de déclarer les cancéreux en algérie (annuaire des cancéreux en algérie)
+application web qui permet de déclarer les cancéreux en algérie (annuaire des cancéreux en algérie)<br>
  creer un base de données db_registre_cancers
  ouvrir le repartoire de l'application avec le D.O.S
  lancer la cammande php artisan migrate --seed
