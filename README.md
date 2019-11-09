@@ -1,5 +1,8 @@
 # registre_cancers
 web application that allows to declare cancer patients in Algeria (directory of cancer patients in Algeria)<br><br>
+
+<img src="https://raw.githubusercontent.com/rlakhneche1/registre_cancers/master/rc.JPG">
+
 create a database db_registre_cancers<br><br>
 open the application repository with the cmd<br><br>
 launch the cammande php artisan migrate --seed<br><br>
