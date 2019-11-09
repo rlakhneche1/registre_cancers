@@ -1,14 +1,14 @@
 # registre_cancers
-application web qui permet de déclarer les cancéreux en algérie (annuaire des cancéreux en algérie)<br><br>
- creer une base de données db_registre_cancers<br><br>
- ouvrir le repartoire de l'application avec le D.O.S<br><br>
- lancer la cammande php artisan migrate --seed<br><br>
- lancer la cammande php artisan serve<br><br>
- taper localhost:8000 au navigateur<br><br>
- pour acceder tant que médecin<br><br>
+web application that allows to declare cancer patients in Algeria (directory of cancer patients in Algeria)<br><br>
+create a database db_registre_cancers<br><br>
+open the application repository with the cmd<br><br>
+launch the cammande php artisan migrate --seed<br><br>
+launch the cammande php artisan serve<br><br>
+type localhost: 8000 to the browser<br><br>
+to access as a doctor<br><br>
 username : doc@gmail.com<br><br>
 password : doc123<br><br>
-pour acceder tant que administrateur<br><br>
+to access as an administrator<br><br>
 username : admin@gmail.com<br><br>
 password : admin123<br><br>
-pour tester l'application avec 4000 patients lancer la commande php artisan db:seed --class=patients
+to test the application with 4000 patients launch the command php artisan db:seed --class=patients
